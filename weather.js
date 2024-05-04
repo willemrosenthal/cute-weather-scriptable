@@ -44,6 +44,9 @@ const birthdayMonth = userSettings[user].birthday[0];
 const birthdayDay = userSettings[user].birthday[1];
 const birthdayIcon = "birthday"; 
 
+// path to assets
+const assetDirName = 'cute_weather_assets';
+
 // DEBUG
 const debugMode = false
 const hideBg = false
@@ -296,7 +299,7 @@ try {
 
 
     // APP VISUALS
-    let imagesPath = fm.joinPath(fm.documentsDirectory(), "weather_images");
+    let imagesPath = fm.joinPath(fm.documentsDirectory(), assetDirName);
 
     // structure
     let main = widget.addStack();
