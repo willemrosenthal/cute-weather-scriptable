@@ -10,9 +10,9 @@ All you need is the `cute-weather.js` script and the `cute-weather-assets` folde
 ### INSTALLATION:
 1. Download and install Scriptable from the appstore on your phone - [Scriptable](https://apps.apple.com/us/app/scriptable/id1405459188)
 2. Create a new script and copy the contents of `cute-weather.js` into it
-3. Add the cute weather assets by one of these two methods:
-   1. Download the `cute-weather-assets` folder to your computer & airdrop it to your iOS device, putting it in `files` in the `Scriptable` folder
-   2. Download the `cute-weather-assets` folder directly to your device and add it to your `files` in the `Scriptable` folder
+3. Add the cute weather assets by:
+   1. Downloading the `cute-weather-assets` folder to your computer
+   2. Airdrop it to your iOS device, putting it in `files` in the `Scriptable` folder
 4. Add a new widget to your device:
    1. Add a widget and select Scriptable as the app for the widget.
    2. Chossing the script you created as the `Script`
