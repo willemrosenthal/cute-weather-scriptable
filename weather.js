@@ -1,15 +1,12 @@
 // Variables used by Scriptable.
 // These must be at the very top of the file. Do not edit.
-// icon-color: brown; icon-glyph: magic;
-// Variables used by Scriptable.
-// These must be at the very top of the file. Do not edit.
-// icon-color: purple; icon-glyph: cloud;
+// icon-color: pink; icon-glyph: cloud;
 // CUTE WEATHER - WILLEM
 // v2.2483
 
 // SETTINGS
-const nightColors = true
 const user = 0;
+const enableDayNightBgChange = true
 
 const userSettings = [
     {
@@ -448,7 +445,7 @@ try {
     let bgColorA = dayColorTop //'74caf9';
     let bgColorB = dayColorBottom //'74caf9'; //69b9f7
 
-    if (nightColors && (weatherData.hourly[0].dt > weatherData.daily[0].sunset || weatherData.hourly[0].dt < weatherData.daily[0].sunrise)) {
+    if (enableDayNightBgChange && (weatherData.hourly[0].dt > weatherData.daily[0].sunset || weatherData.hourly[0].dt < weatherData.daily[0].sunrise)) {
         bgColorA = nightColorTop;
         bgColorB = nightColorBottom;
     }
