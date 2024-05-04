@@ -42,7 +42,7 @@ const birthdayDay = userSettings[user].birthday[1];
 const birthdayIcon = "birthday"; 
 
 // path to assets
-const assetDirName = 'cute_weather_assets';
+const assetDirName = 'cute-weather-assets';
 
 // DEBUG
 const debugMode = false
